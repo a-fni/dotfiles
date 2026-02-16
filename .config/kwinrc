@@ -11,6 +11,9 @@ TopRight=KRunner
 Active=true
 NightTemperature=4000
 
+[Plugins]
+diminactiveEnabled=true
+
 [Tiling]
 padding=4
 
@@ -35,3 +38,7 @@ ElectricBorderDelay=0
 
 [Xwayland]
 Scale=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=kwin4_decoration_qml_plastik
