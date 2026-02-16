@@ -1,0 +1,24 @@
+[DetailsMode]
+IconSize=22
+PreviewSize=22
+
+[General]
+EditableUrl=true
+FilterBar=true
+RememberOpenedTabs=false
+ShowFullPath=true
+Version=202
+ViewPropsTimestamp=2026,1,17,18,2,15.149
+
+[IconsMode]
+IconSize=48
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=
