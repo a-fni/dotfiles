@@ -1,0 +1,7 @@
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -al'
+
+alias grep='grep --color=auto'
+
+alias neofetch='echo && fastfetch'
