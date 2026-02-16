@@ -256,6 +256,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][kitty.desktop]
 _launch=Meta+Return
 
+[services][org.kde.krunner.desktop]
+_launch=Search\tMeta+Space\tAlt+Space\tAlt+F2
+
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
 Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1

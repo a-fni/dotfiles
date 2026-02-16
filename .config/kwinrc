@@ -5,14 +5,10 @@ Rows=1
 
 [ElectricBorders]
 BottomRight=ShowDesktop
-TopRight=KRunner
 
 [NightColor]
 Active=true
 NightTemperature=4000
-
-[Plugins]
-diminactiveEnabled=true
 
 [Tiling]
 padding=4

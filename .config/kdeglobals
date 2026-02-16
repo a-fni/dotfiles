@@ -139,6 +139,9 @@ ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
 ShowDeleteCommand=false
 widgetStyle=Breeze
 
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
