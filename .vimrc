@@ -44,9 +44,11 @@ set foldlevelstart=99         " Start with all folds open
 set foldenable
 
 " Python: use indent-based folding (more reliable)
-augroup python_folding
+" Markdown: use indent-based folding (only solution)
+augroup indent_based_folding
   autocmd!
   autocmd FileType python setlocal foldmethod=indent
+  autocmd FileType markdown setlocal foldmethod=indent
 augroup END                " Enable folding
 
 " --- Visuals ---
