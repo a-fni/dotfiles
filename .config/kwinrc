@@ -10,6 +10,9 @@ BottomRight=ShowDesktop
 Active=true
 NightTemperature=4000
 
+[TabBox]
+LayoutName=big_icons
+
 [Tiling]
 padding=4
 
@@ -17,6 +20,9 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][2e97ea0a-015a-451d-b7e8-bbcb3eb30b95][12d7da9e-c9a3-49e4-8b98-8786abfdeb66]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][393b7087-eb37-4562-8661-779101eebb6a][12d7da9e-c9a3-49e4-8b98-8786abfdeb66]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][884f5d04-621b-4b7c-8b66-bf5182a6be9a][12d7da9e-c9a3-49e4-8b98-8786abfdeb66]

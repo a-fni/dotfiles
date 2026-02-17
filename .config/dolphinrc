@@ -1,9 +1,10 @@
+MenuBar=Disabled
+
 [DetailsMode]
 IconSize=22
 PreviewSize=22
 
 [General]
-EditableUrl=true
 FilterBar=true
 RememberOpenedTabs=false
 ShowFullPath=true
