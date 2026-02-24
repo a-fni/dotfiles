@@ -49,6 +49,7 @@ augroup indent_based_folding
   autocmd!
   autocmd FileType python setlocal foldmethod=indent
   autocmd FileType markdown setlocal foldmethod=indent
+  autocmd FileType json setlocal foldmethod=indent
 augroup END                " Enable folding
 
 " --- Visuals ---

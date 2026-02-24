@@ -134,6 +134,7 @@ ForegroundVisited=155,89,182
 
 [General]
 ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+UseSystemBell=true
 
 [KDE]
 ShowDeleteCommand=false
