@@ -10,7 +10,15 @@
   </info>
  </bookmark>
  <bookmark href="file:///home/afni/.ssh">
-  <title></title>
+  <title/>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name=""/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///home">
+  <title>home</title>
   <info>
    <metadata owner="http://freedesktop.org">
     <bookmark:icon name=""/>

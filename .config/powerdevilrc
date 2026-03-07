@@ -11,6 +11,9 @@ DimDisplayWhenIdle=false
 TurnOffDisplayIdleTimeoutSec=900
 UseProfileSpecificDisplayBrightness=true
 
+[Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=900
+
 [LowBattery][Display]
 DimDisplayIdleTimeoutSec=300
 TurnOffDisplayIdleTimeoutSec=600

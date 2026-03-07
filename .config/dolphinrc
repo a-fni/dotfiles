@@ -2,7 +2,9 @@ MenuBar=Disabled
 
 [DetailsMode]
 IconSize=22
+LeftPadding=0
 PreviewSize=22
+RightPadding=0
 
 [General]
 FilterBar=true

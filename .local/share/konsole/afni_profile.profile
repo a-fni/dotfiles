@@ -10,7 +10,7 @@ Name=afni_profile
 Parent=FALLBACK/
 
 [Interaction Options]
-OpenLinksByDirectClickEnabled=true
+OpenLinksByDirectClickEnabled=false
 UnderlineFilesEnabled=true
 
 [Scrolling]

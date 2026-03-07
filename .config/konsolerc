@@ -4,6 +4,9 @@ DefaultProfile=afni_profile.profile
 [General]
 ConfigVersion=1
 
+[MainWindow]
+MenuBar=Disabled
+
 [TabBar]
 ExpandTabWidth=true
 NewTabBehavior=PutNewTabAfterCurrentTab
