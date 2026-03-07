@@ -16,3 +16,10 @@ These configuration files are currently in use on the following setup:
 - **KDE Plasma** desktop environment
 - **Dolphin** file explorer
 
+## Configuration and Usage
+
+In order to simply and smoothly use this repository a bare git repository was setup. Naturally, the repository was setup
+with `showUntrackedFiles = no` so that `status` commands do not clog up the entire terminal. Finally, in order to be able
+to access the repository ubiquitously the following alias was setup for bash:
+
+`alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'`
