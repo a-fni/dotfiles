@@ -1,5 +1,9 @@
 [Libinput][1267][13][Elan Touchpad]
+Enabled=true
 NaturalScroll=true
+
+[Libinput][1267][13][Elan TrackPoint]
+Enabled=true
 
 [Mouse]
 cursorTheme=KDE_Classic
