@@ -28,6 +28,14 @@ set softtabstop=4             " Backspace treats spaces like tabs
 set autoindent                " Copy indent from current line
 set smartindent               " Smarter auto-indentation
 
+" Override for JavaScript and TypeScript files
+augroup indent_only_2_spaces
+    autocmd FileType javascript        setlocal shiftwidth=2 softtabstop=2 tabstop=2  
+    autocmd FileType javascriptreact   setlocal shiftwidth=2 softtabstop=2 tabstop=2 
+    autocmd FileType typescript        setlocal shiftwidth=2 softtabstop=2 tabstop=2 
+    autocmd FileType typescriptreact   setlocal shiftwidth=2 softtabstop=2 tabstop=2 
+augroup END
+
 " --- Search behavior ---
 set ignorecase                " Case-insensitive search...
 set smartcase                 " ...unless uppercase letter used
@@ -46,10 +54,10 @@ set foldenable
 " Python: use indent-based folding (more reliable)
 " Markdown: use indent-based folding (only solution)
 augroup indent_based_folding
-  autocmd!
-  autocmd FileType python setlocal foldmethod=indent
-  autocmd FileType markdown setlocal foldmethod=indent
-  autocmd FileType json setlocal foldmethod=indent
+    autocmd!
+    autocmd FileType python     setlocal foldmethod=indent
+    autocmd FileType markdown   setlocal foldmethod=indent
+    autocmd FileType json       setlocal foldmethod=indent
 augroup END                " Enable folding
 
 " --- Visuals ---
