@@ -16,3 +16,8 @@ bindkey '^[[F' end-of-line
 bindkey '^[OF' end-of-line
 bindkey '^[[4~' end-of-line
 
+# Fn keys for external keyboard actions
+#bindkey '^[[18~' beginning-of-line
+#bindkey '^[[19~' end-of-line
+#bindkey '^[[20~' replace
+#bindkey '^[[21~' delete-char

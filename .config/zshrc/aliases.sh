@@ -1,7 +1,6 @@
-# ls shortcuts
-alias ls='ls --color=auto'
-alias ll='ls -l'
-alias la='ls -al'
+# Better ls shortcuts => use eza instead
+alias ll='eza -lhbg --git'
+alias la='eza -lhbag --git'
 
 # Grep output colouring
 alias grep='grep --color=auto'
